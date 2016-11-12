@@ -1,0 +1,16 @@
+*.pyc
+__pycache__
+db.sqlite3
+/static
+.DS_Store
+*.jpg
+
+bin/
+include/
+lib/
+pip-selfcheck.json
+local/
+share/
+documentation.txt
+db.sqlite3
+static_cdn/

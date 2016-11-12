@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Product: {{ queryset.title }}</h1>
+<p>{{ queryset.description }}</p>
+<p>Price: ${{ queryset.price }}</p>
+
+{% endblock content %}

@@ -1,0 +1,26 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='{% static "css/base.css" %}' />
+	<title></title>
+<style>
+.main-content{
+	width: 400px;
+	margin:0 auto;
+}	
+
+{% block style %}{% endblock style %}
+
+</style>
+</head>
+<body>
+
+<div class='main-content'>
+{% block content %}
+<p>This is awesome</p>
+{% endblock content %}
+</div>
+</body>
+</html>
